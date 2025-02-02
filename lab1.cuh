@@ -23,8 +23,8 @@
 
 	#define WARP_SIZE			32
 	#define SAMPLE_SIZE			MC_SAMPLE_SIZE
-	#define GENERATE_BLOCKS		1024
-	#define REDUCE_SIZE			32
+	#define GENERATE_BLOCKS		2048
+	#define REDUCE_SIZE			64
 	#define REDUCE_BLOCKS		(GENERATE_BLOCKS / REDUCE_SIZE)
 
 #endif
